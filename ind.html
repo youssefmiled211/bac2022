@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <script src="bir.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="" name="">
+        <fieldset>
+            <legend>inscription d'un client</legend>
+            nom: <input type="text" name="nom" id="nom"><br>
+            prenom: <input type="text" name="prenom" id="prenom"><br>
+            tel: <input typ
+            e="text" name="tel" id="tel"><br>
+            adresse: <textarea name="adresse" id="adresse" cols="30" rows="10"></textarea><br>
+            <hr>
+            mot de passe: <input type="password" name="mopass" id="mopass"><br>
+             confirmation mot de passe: <input type="password" name="cmopass" id="cmopass"><br>
+             <input type="reset" value="anuller"><input type="submit" value="valider" onclick="verif1()">
+        </fieldset>
+    </form>
+    <form action="" method="post"name="">
+        <fieldset>
+            <legend>commends de pizza</legend>
+            <select name="" id="liste">
+                <option value="0">choisir un pizza</option>
+                <option value="1">fruits de mer</option>
+                <option value="2">margherita</option>
+                <option value="3">napolitaine</option>
+                <option value="4">neptune</option>
+                <option value="5">royale</option>
+            </select>
+            quntite: <input type="number" name="quntite" id="quntite"><br>
+            tel: <input type="text" name="ntel" id="ntel"><br>
+            mot de passe: <input type="password" name="motpass" id="motpass"><br>
+            <input type="reset" value="anuller"><input type="button" value="commender" onclick="verif2()">
+            
+
+        </fieldset>
+    </form>
+    <form action="">
+        <label for="">Email:</label><input type="text" id="mail">
+        <input type="submit" value="verifier" onclick="emailcheck()">
+    </form>
+</body>
+</html>

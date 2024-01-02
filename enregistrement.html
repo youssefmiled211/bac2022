@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>enregistrement d'un testeur</legend>
+            <label for="">N°permis:</label><input type="text" id="permi"><br>
+            <label for="">Nom:</label><input type="text" id="nom"><br>
+            <label for="">Prenom</label><input type="text" id="prenom"><br>
+            <label for="">Genre:</label><input type="radio" name="g" id="f">féminin <input type="radio" name="g" id="m">masculin <br>
+            <input type="reset" value="Annuler" ><input type="submit" value="Ajouter" onclick="verif1()">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>evaluation d'un modele</legend>
+            <label for="">N°permis:</label><input type="text" id="permi1">
+            <label for="">modele teste :</label>
+            <select name="" id="liste">
+                <option value="0">choisire un modele</option>
+                <option value="1">wallis iris</option>
+                <option value="2">wallis 619</option>
+                <option value="3">wallis 216</option>
+            </select><br>
+            <label for="">note attrubiees:</label><br>
+            <label for="">scurite:</label><input type="number" name="scurite" id="scurite">
+            <label for="">conduite:</label><input type="number" name="conduite" id="conduite">
+            <label for="">confort:</label><input type="number" name="confort" id="confort"><br>
+            <label for="">je ne suis pas un robot:</label><input type="checkbox" name="robot" id="robot"> <br>
+            <input type="reset" value="Annuler" > <input type="submit" value="envoiyer" onclick="verif2()">
+        </fieldset>
+    </form>
+</body>
+</html>
